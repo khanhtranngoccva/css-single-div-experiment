@@ -21,7 +21,8 @@ However, unlike Junferno's original implementation, this experiment aims to achi
 2. Added extra angle parameters to minimize gaps between triangles due to browser rounding errors.
 
 ## Limitations
-1. Concave polygons and polygons with holes don't always triangulate properly. Sometimes they are omitted by the script, unfortunately, these polygons ended up hidden from the screen.
+1. Concave polygons and polygons with holes don't always triangulate properly. Sometimes they are omitted by the script, unfortunately, these polygons ended up hidden from the screen. (example: area enclosed by red lines indicate a failure to triangulate)
+![image](https://github.com/khanhtranngoccva/css-single-div-experiment/assets/61155608/0f6ce527-f372-4822-b5ee-ded440f59a60)
 2. Triangulation of polygons is incredibly space-intensive. A simple image as in the demo can take up thousands of triangles, corresponding to megabytes of data. More complex images can take up
 hundreds of thousands of triangles (conic gradients) which then crash the browser.
 
