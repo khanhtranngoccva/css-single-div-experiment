@@ -20,7 +20,7 @@ def find_contours_of_image(image: Image.Image):
     approx_contours = []
     failed = []
     for contour in contours:
-        approx = cv2.approxPolyDP(contour, 0.001 * cv2.arcLength(contour, True), True)
+        approx = cv2.approxPolyDP(contour, 0.01 * cv2.arcLength(contour, True), True)
         squeezed = approx.squeeze()
 
         if len(squeezed) > 2:

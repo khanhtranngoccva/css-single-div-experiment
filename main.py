@@ -11,7 +11,7 @@ import cv_util
 import triangle_util
 
 if __name__ == '__main__':
-    im = Image.open("test.png")
+    im = Image.open("test5.png")
     # im = im.resize((im.width * 2, im.height * 2), PIL.Image.BILINEAR)
     matrix = image_util.get_image_rgb_matrix(im)
 
