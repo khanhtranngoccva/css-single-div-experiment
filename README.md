@@ -3,7 +3,7 @@
 
 ## Original clip-path implementation
 The clip-path implementation from Junferno @kevinjycui is obviously infinitely more robust and compact than this method, as clip-path already assists with shape drawing out of the box. 
-<a href="https://github.com/junferno/css-video">ORIGINAL IMPLEMENTATION</a>
+<a href="https://github.com/kevinjycui/css-video">ORIGINAL IMPLEMENTATION</a>
 
 However, unlike Junferno's original implementation, this experiment aims to achieve the transformation of images into pure, no-div CSS - no extra HTML but the link to the original stylesheet is allowed.
 
